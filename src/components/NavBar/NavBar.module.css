@@ -1,0 +1,22 @@
+.navbar_container {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 1rem 7rem;
+}
+.logo_container {
+  width: 92px;
+  height: 27px;
+}
+.nav_links {
+  display: flex;
+  gap: 3rem;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0%;
+  color: rgba(16, 40, 81, 1);
+}
