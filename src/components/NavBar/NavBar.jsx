@@ -1,7 +1,11 @@
 import React from "react";
 import style from "./Navbar.module.css";
 import NavLogo from "../../assets/NavLogo.png";
+import Button from "../Button/Button";
 const NavBar = () => {
+  const handleClick = () => {
+    console.log("Button Clicked");
+  };
   return (
     <div className={style.navbar_container}>
       <div className={style.logo_container}>
@@ -14,7 +18,7 @@ const NavBar = () => {
         <span>Surgeries</span>
         <span>Software for Provider</span>
         <span>Facilities</span>
-        <button>My Bookings</button>
+        <Button onClick={handleClick}>My Bookings</Button>
       </div>
     </div>
   );

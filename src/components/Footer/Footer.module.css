@@ -1,0 +1,32 @@
+.footer_container {
+  background-color: rgba(27, 60, 116, 1);
+  padding: 1.5rem 8rem;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1);
+}
+.footer_section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+  padding: 10px;
+  min-height: 235px;
+}
+.footer_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.social_links {
+  display: flex;
+  gap: 1.25rem;
+}
+.footerLink_container {
+  display: flex;
+  gap: 12rem;
+  text-align: left;
+}

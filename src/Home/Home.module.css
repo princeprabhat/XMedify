@@ -1,0 +1,13 @@
+.hero_container {
+  background: linear-gradient(
+    to left,
+    rgba(231, 240, 255, 1),
+    rgba(232, 241, 255, 0.47)
+  );
+
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 7rem;
+  /* align-items: center; */
+}

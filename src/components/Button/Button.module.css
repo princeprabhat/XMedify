@@ -1,0 +1,14 @@
+.button_container {
+  background-color: rgba(42, 168, 255, 1);
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  padding: 10px 15px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 2%;
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
