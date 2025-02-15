@@ -11,3 +11,34 @@
   padding: 1rem 7rem;
   /* align-items: center; */
 }
+.right_hero {
+  width: 585px;
+  /* height: 481px; */
+}
+.left_hero {
+  flex: 1;
+  margin-top: 5rem;
+}
+.para_heading {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 31px;
+  line-height: 68px;
+  letter-spacing: 2%;
+}
+.para_hero {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 2%;
+  color: rgba(92, 97, 105, 1);
+}
+.spanStyle {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 68px;
+  letter-spacing: 2%;
+  color: rgba(0, 0, 0, 1);
+}
