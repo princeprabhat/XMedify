@@ -5,15 +5,12 @@
     rgba(232, 241, 255, 0.47)
   );
 
-  height: 100%;
   display: flex;
   justify-content: space-between;
   padding: 1rem 7rem;
-  /* align-items: center; */
 }
 .right_hero {
   width: 585px;
-  /* height: 481px; */
 }
 .left_hero {
   flex: 1;

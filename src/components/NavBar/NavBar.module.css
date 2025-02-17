@@ -24,4 +24,9 @@
   line-height: 21px;
   letter-spacing: 0%;
   color: rgba(16, 40, 81, 1);
+  cursor: pointer;
+}
+.nav_links > span:hover {
+  color: black;
+  text-decoration: underline;
 }

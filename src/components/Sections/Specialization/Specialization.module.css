@@ -1,0 +1,48 @@
+.specialization_container {
+  background: linear-gradient(
+    to left,
+    rgba(231, 240, 255, 1),
+    rgba(232, 241, 255, 0.47)
+  );
+  text-align: center;
+  padding: 3rem 7rem;
+}
+
+.card_container {
+  display: grid;
+  grid-template-columns: repeat(4, 270px);
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.card_box {
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 34px 44px 0px rgba(213, 219, 228, 0.44);
+  padding: 30px 60px;
+  border-radius: 10px;
+}
+.container_heading {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 67px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgba(27, 60, 116, 1);
+  margin-bottom: 3rem;
+}
+.card_title {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgba(171, 182, 199, 1);
+  margin-top: 10px;
+}
+.specialization_container > Button {
+  padding-left: 30px;
+  padding-right: 30px;
+}

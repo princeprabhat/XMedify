@@ -1,0 +1,65 @@
+.blogs_container {
+  padding: 1rem 7rem;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+.card_container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: nowrap;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+.title_text {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgba(42, 167, 255, 1);
+}
+.heading_text {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 67px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgba(27, 60, 116, 1);
+}
+.card_box {
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+  /* max-width: 363px; */
+}
+.card_box > img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+}
+.card_bottom {
+  padding: 10px;
+}
+.card_bottom > div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.card_bottom > div > span {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 27px;
+  letter-spacing: 0%;
+  color: rgba(119, 130, 157, 1);
+}
+.card_bottom > p {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0%;
+  color: rgba(27, 60, 116, 1);
+}

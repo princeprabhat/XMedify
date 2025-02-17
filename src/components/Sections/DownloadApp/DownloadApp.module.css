@@ -1,0 +1,108 @@
+.download_app_container {
+  background: linear-gradient(
+    to left,
+    rgba(231, 240, 255, 1),
+    rgba(232, 241, 255, 0.47)
+  );
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  gap: 6rem;
+}
+.left_section {
+  display: flex;
+}
+.mobileSkeleton {
+  width: 20rem;
+  height: 26rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-size: contain;
+  padding-top: 40px;
+
+  overflow: hidden;
+}
+.mobile_screen1 {
+  width: 79%;
+  height: 105%;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+}
+.mobile_screen2 {
+  width: 95%;
+  height: 100%;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+}
+.right_section {
+  position: relative;
+}
+.right_section > img {
+  position: absolute;
+  top: 15%;
+  left: -15%;
+}
+.heading_title {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 67px;
+  letter-spacing: 0%;
+  color: rgba(27, 60, 116, 1);
+}
+/* SmsForm css */
+.sms_form_heading {
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: rgba(65, 65, 70, 1);
+  margin-top: 1rem;
+}
+.sms_form_container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+.sms_form_container > div > label {
+  background-color: #ffffff;
+  border: 1px solid rgba(180, 180, 190, 0.3);
+  padding: 15px;
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 16.8px;
+  letter-spacing: 0%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  color: rgba(0, 0, 0, 1);
+}
+.sms_form_container > div > input {
+  background-color: #ffffff;
+  outline: none;
+  border: 1px solid rgba(180, 180, 190, 0.3);
+  padding: 15px 60px 15px 15px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 18px;
+  letter-spacing: 0%;
+  color: rgba(180, 180, 190, 1);
+}
+
+.store_icon_banner {
+  display: flex;
+  gap: 10px;
+}
