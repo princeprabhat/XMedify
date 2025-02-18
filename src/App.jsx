@@ -8,6 +8,8 @@ import Blogs from "./components/Sections/Blogs/Blogs";
 import OurFamilies from "./components/Sections/OurFamilies/OurFamilies";
 import Specialization from "./components/Sections/Specialization/Specialization";
 import DownloadApp from "./components/Sections/DownloadApp/DownloadApp";
+import Offers from "./components/Sections/Offers/Offers";
+import Specialists from "./components/Sections/Specialists/Specialists";
 
 const App = () => {
   return (
@@ -15,10 +17,12 @@ const App = () => {
       <TopBar />
       <NavBar />
       <Home />
-      {/* <Blogs />
+      {/* <Offers />
+      <Blogs />
       <OurFamilies />
-      <Specialization /> */}
-      <DownloadApp />
+      <Specialization />
+      <DownloadApp /> */}
+      <Specialists />
       <Footer />
     </>
   );
