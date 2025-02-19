@@ -1,0 +1,25 @@
+.accordion_question_container {
+  display: flex;
+  /* flex: 1; */
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+.question_title {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: rgba(27, 60, 116, 1);
+  padding-bottom: 1rem;
+}
+
+.accordion_answer {
+  padding: 0rem 2rem;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: rgba(27, 60, 116, 1);
+}

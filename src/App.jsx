@@ -11,6 +11,7 @@ import DownloadApp from "./components/Sections/DownloadApp/DownloadApp";
 import Offers from "./components/Sections/Offers/Offers";
 import Specialists from "./components/Sections/Specialists/Specialists";
 import Accordion from "./components/Accordion/Accordion";
+import FAQs from "./components/Sections/FAQs/FAQs";
 
 const App = () => {
   return (
@@ -24,7 +25,7 @@ const App = () => {
       <DownloadApp /> */}
       {/* <Offers />
       <Specialists /> */}
-      <Accordion />
+      <FAQs />
       <Footer />
     </>
   );

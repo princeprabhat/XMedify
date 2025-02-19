@@ -1,0 +1,73 @@
+.faq_container {
+  background: transparent;
+
+  padding: 3rem 7rem;
+}
+.item_container {
+  display: flex;
+
+  align-items: center;
+  gap: 5rem;
+}
+.faq_heading {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.small_heading {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0%;
+  color: rgba(42, 167, 255, 1);
+}
+.large_heading {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 67px;
+  letter-spacing: 0%;
+  color: rgba(27, 60, 116, 1);
+}
+.left_section {
+  position: relative;
+}
+.left_badge {
+  position: absolute;
+  top: 59%;
+  left: -5%;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 15px 35px -5px rgba(0, 0, 0, 0.07);
+}
+
+.left_badge > div > span {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 33.6px;
+  letter-spacing: 0%;
+  color: rgba(27, 60, 116, 1);
+}
+.left_badge > div > div {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: rgba(119, 130, 157, 1);
+}
+
+.right_badge {
+  position: absolute;
+  top: 30%;
+  right: -2%;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.06);
+  padding: 1.5rem 0.5rem;
+  border-radius: 50%;
+}
