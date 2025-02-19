@@ -10,6 +10,7 @@ import Specialization from "./components/Sections/Specialization/Specialization"
 import DownloadApp from "./components/Sections/DownloadApp/DownloadApp";
 import Offers from "./components/Sections/Offers/Offers";
 import Specialists from "./components/Sections/Specialists/Specialists";
+import Accordion from "./components/Accordion/Accordion";
 
 const App = () => {
   return (
@@ -17,12 +18,13 @@ const App = () => {
       <TopBar />
       <NavBar />
       <Home />
-      {/* <Offers />
+      {/* 
       <Blogs />
-      <OurFamilies />
       <Specialization />
       <DownloadApp /> */}
-      <Specialists />
+      {/* <Offers />
+      <Specialists /> */}
+      <Accordion />
       <Footer />
     </>
   );

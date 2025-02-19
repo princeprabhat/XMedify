@@ -1,0 +1,58 @@
+.specialist_container {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+.container_heading {
+  margin-bottom: 4rem;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 67px;
+  letter-spacing: 0%;
+
+  color: rgba(27, 60, 116, 1);
+}
+.spec_card_container {
+  padding-top: 2rem;
+  /* padding-bottom: 2rem; */
+  margin-bottom: 4rem;
+}
+.image_box {
+  width: 100%;
+  padding-top: 2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(
+    to bottom,
+    rgba(225, 243, 255, 1),
+    rgba(42, 167, 255, 1)
+  );
+  border-top-left-radius: 250px;
+  border-top-right-radius: 250px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.image_box > img {
+  width: 100%;
+  aspect-ratio: 1;
+}
+.card_title {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 48px;
+  letter-spacing: 0%;
+
+  color: rgba(27, 60, 116, 1);
+}
+.card_position_text {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 27px;
+  letter-spacing: 0%;
+  color: rgba(42, 167, 255, 1);
+}

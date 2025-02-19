@@ -9,27 +9,27 @@ const imgData = [
   <img
     src={Banner1}
     alt="banner-img"
-    style={{ marginBottom: "2rem", width: "100%" }}
+    style={{ marginBottom: "4rem", width: "100%" }}
   />,
   <img
     src={Banner2}
     alt="banner-img"
-    style={{ marginBottom: "2rem", width: "100%" }}
+    style={{ marginBottom: "4rem", width: "100%" }}
   />,
   <img
     src={Banner3}
     alt="banner-img"
-    style={{ marginBottom: "2rem", width: "100%" }}
+    style={{ marginBottom: "4rem", width: "100%" }}
   />,
   <img
     src={Banner1}
     alt="banner-img"
-    style={{ marginBottom: "2rem", width: "100%" }}
+    style={{ marginBottom: "4rem", width: "100%" }}
   />,
   <img
     src={Banner2}
     alt="banner-img"
-    style={{ marginBottom: "2rem", width: "100%" }}
+    style={{ marginBottom: "4rem", width: "100%" }}
   />,
 ];
 

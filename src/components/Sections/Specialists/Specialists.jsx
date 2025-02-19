@@ -14,6 +14,8 @@ const cardData = [
   { image: DrAnkur, title: "Dr. Ankur Sharma", position: "Medicine" },
   { image: DrHenry, title: "Dr. Henry Mathon", position: "Cardiologist" },
   { image: DrSam, title: "Dr. Sam Altman", position: "Medicine" },
+  { image: DrAnkur, title: "Dr. Ankur Sharma", position: "Medicine" },
+  { image: DrHenry, title: "Dr. Henry Mathon", position: "Cardiologist" },
 ];
 const generateCards = () => {
   const arr = [];
@@ -32,7 +34,8 @@ const generateCards = () => {
 const Specialists = () => {
   return (
     <div className={style.specialist_container}>
-      <HeroSlider data={generateCards()} slidesCount="auto" />
+      <div className={style.container_heading}>Our Medical Specialist</div>
+      <HeroSlider data={generateCards()} isCustom={true} />
     </div>
   );
 };

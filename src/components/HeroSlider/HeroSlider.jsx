@@ -4,13 +4,21 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
 import "swiper/css/pagination";
-const HeroSlider = ({ data, slidesCount }) => {
+const HeroSlider = ({ data, isCustom = false }) => {
   return (
     <Swiper
+      centeredSlides={isCustom ? true : false}
+      loop={true}
       modules={[Pagination]}
-      spaceBetween={10}
-      slidesPerView={slidesCount == "auto" ? "auto" : 3}
+      spaceBetween={40}
+      slidesPerView={3}
       pagination={{ clickable: true }}
+      breakpoints={{
+        1024: { slidesPerView: isCustom ? 4 : 3 },
+        768: { slidesPerView: 2 },
+        640: { slidesPerView: 1 },
+      }}
+
       //   onSlideChange={() => console.log("slide change")}
       //   onSwiper={(swiper) => console.log(swiper)}
     >
