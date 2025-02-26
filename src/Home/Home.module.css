@@ -8,6 +8,9 @@
   display: flex;
   justify-content: space-between;
   padding: 1rem 7rem;
+
+  position: relative;
+  z-index: -1;
 }
 .right_hero {
   width: 585px;

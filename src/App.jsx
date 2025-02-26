@@ -12,21 +12,27 @@ import Offers from "./components/Sections/Offers/Offers";
 import Specialists from "./components/Sections/Specialists/Specialists";
 import Accordion from "./components/Accordion/Accordion";
 import FAQs from "./components/Sections/FAQs/FAQs";
+import HeroServices from "./components/IconLayout/HeroServices";
+import PatientCaring from "./components/Sections/PatientCaring/PatientCaring";
+import Search from "./Search/Search";
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { SnackbarProvider } from "notistack";
+import MyBookings from "./MyBookings/MyBookings";
 
 const App = () => {
   return (
     <>
-      <TopBar />
-      <NavBar />
-      <Home />
-      {/* 
-      <Blogs />
-      <Specialization />
-      <DownloadApp /> */}
-      {/* <Offers />
-      <Specialists /> */}
-      <FAQs />
-      <Footer />
+      <SnackbarProvider>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/search/:state/:city" element={<Search />} />
+            <Route path="/search" element={<Search />} />
+            <Route path="/my-bookings" element={<MyBookings />} />
+          </Routes>
+        </BrowserRouter>
+      </SnackbarProvider>
     </>
   );
 };

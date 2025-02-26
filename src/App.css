@@ -1,0 +1,14 @@
+/* body {
+  user-select: none;
+} */
+#notistack-snackbar {
+  font-family: "Poppins";
+  font-size: 1rem;
+  color: black;
+  font-weight: 500;
+  background-color: yellow;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 10px;
+  padding: 1rem;
+}

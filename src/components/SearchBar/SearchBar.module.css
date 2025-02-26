@@ -1,0 +1,46 @@
+.search_bar_container {
+  margin-bottom: 2rem;
+}
+.form_container {
+  display: flex;
+
+  justify-content: flex-end;
+  gap: 5rem;
+}
+.form_container > div {
+  display: flex;
+  align-items: center;
+}
+.form_container > Button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-right: 1.5rem;
+  /* padding-left: 1rem; */
+}
+
+.search_box {
+  border-radius: 8px;
+  border: 1px solid rgba(240, 240, 240, 1);
+  background-color: rgba(250, 251, 254, 1);
+  padding-left: 1rem;
+  width: 30%;
+}
+select {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 21px;
+  letter-spacing: 2%;
+  appearance: none;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-right: 5rem;
+  padding-left: 0.5rem;
+  border-radius: 8px;
+  border: none;
+  background-color: rgba(250, 251, 254, 1);
+  outline: none;
+  color: rgba(171, 182, 199, 1);
+  width: 100%;
+}

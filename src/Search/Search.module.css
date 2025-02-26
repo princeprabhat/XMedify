@@ -1,0 +1,50 @@
+.container_search_page {
+  background: linear-gradient(
+    to left,
+    rgba(231, 240, 255, 1),
+    rgba(232, 241, 255, 0.47)
+  );
+}
+
+.search_page_container {
+  padding: 2rem 7rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.medical_cards_container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  flex: 1;
+}
+.heading_card_container {
+  padding-left: 7rem;
+  padding-right: 7rem;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.75rem;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 36px;
+  letter-spacing: 0%;
+  color: rgba(0, 0, 0, 1);
+}
+.heading_card_container > div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.heading_card_container > div > span {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: rgba(120, 120, 135, 1);
+}

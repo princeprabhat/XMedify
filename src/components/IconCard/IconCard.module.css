@@ -1,0 +1,27 @@
+.icon_card_box {
+  background-color: rgba(250, 251, 254, 1);
+  /* box-shadow: 0px 34px 44px 0px rgba(213, 219, 228, 0.44); */
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  text-align: center;
+  flex: 1;
+  user-select: none;
+}
+.icon_card_box > img {
+  width: 4rem;
+}
+.icon_card_box:nth-child(3) {
+  background-color: rgba(42, 167, 255, 0.08);
+  border: 1px solid rgba(42, 167, 255, 1);
+  color: rgba(42, 167, 255, 1);
+  font-weight: 600;
+}
+.icon_card_title {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 27px;
+  letter-spacing: 2%;
+
+  color: rgba(171, 182, 199, 1);
+}

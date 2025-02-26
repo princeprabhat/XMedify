@@ -1,0 +1,28 @@
+.Hero_services_container {
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 6px 6px 35px 0px rgba(16, 40, 81, 0.11);
+  padding: 3rem 2rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  margin-bottom: 5rem;
+  margin-top: -15%;
+  border-radius: 15px;
+}
+
+.card_container {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.container_heading {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 2%;
+  color: rgba(16, 40, 81, 1);
+  text-align: center;
+  padding: 1rem 0rem;
+}

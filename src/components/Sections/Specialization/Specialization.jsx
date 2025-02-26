@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import style from "./Specialization.module.css";
 import Button from "../../Button/Button";
-import GenerateCard from "./GenerateCard";
 
 import { CARD_DATA } from "./cardData";
 
@@ -19,10 +18,15 @@ const Specialization = () => {
       <div className={style.card_container}>
         {CARD_DATA.slice(0, toggleView ? CARD_DATA.length : 8).map(
           (el, idx) => {
-            return <GenerateCard key={idx} title={el.title} icon={el.icon} />;
+            return (
+              <div className={style.card_box} key={idx}>
+                <img src={el.icon} alt="card-icon" />
+
+                <div className={style.card_title}>{el.title}</div>
+              </div>
+            );
           }
         )}
-        {/* <GenerateCard title="Blood Sample" icon={BloodSample} /> */}
       </div>
       <Button onClick={handleToggle}>View All</Button>
     </div>
