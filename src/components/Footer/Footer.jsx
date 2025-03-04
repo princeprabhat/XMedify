@@ -6,8 +6,10 @@ import TwitterIcon from "../../assets/twitter-icon.png";
 import YoutubeIcon from "../../assets/youtube-icon.png";
 import PintrestIcon from "../../assets/pintrest-icon.png";
 import FooterLink from "./FooterLink";
+import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
+  const navigate = useNavigate();
   return (
     <div className={style.footer_container}>
       <div className={style.footer_section}>
@@ -17,6 +19,7 @@ const Footer = () => {
             alt="footer-logo"
             height={"36px"}
             width={"126px"}
+            onClick={() => navigate("/")}
           />
 
           <div className={style.social_links}>

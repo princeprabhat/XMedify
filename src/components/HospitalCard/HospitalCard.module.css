@@ -3,7 +3,8 @@
 
   display: flex;
   justify-content: space-between;
-  padding: 1.75rem;
+  padding: 1.75rem 1.75rem 2rem 1.75rem;
+
   border-radius: 15px;
 }
 .left_section {
@@ -57,6 +58,26 @@
 .right_section > Button {
   padding-left: 2rem;
   padding-right: 2rem;
+}
+.booking_date {
+  border: 1px solid rgba(0, 165, 0, 1);
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19.6px;
+  letter-spacing: 0%;
+  color: rgba(0, 113, 0, 1);
+  padding: 0.2rem 0.75rem;
+}
+.booking_time {
+  border: 1px solid rgba(42, 167, 255, 1);
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19.6px;
+  letter-spacing: 0%;
+  color: rgba(42, 167, 255, 1);
+  padding: 0.2rem 0.75rem;
 }
 
 .hospital_info > h3 {

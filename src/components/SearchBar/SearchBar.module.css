@@ -44,3 +44,12 @@ select {
   color: rgba(171, 182, 199, 1);
   width: 100%;
 }
+
+@media only screen and (max-width: 1230px) {
+  .form_container {
+    gap: 1rem;
+  }
+  .search_box {
+    width: unset;
+  }
+}

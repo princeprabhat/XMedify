@@ -30,3 +30,21 @@
   gap: 12rem;
   text-align: left;
 }
+@media only screen and (max-width: 1230px) {
+  .footer_container {
+    padding: 1.5rem 3rem;
+  }
+  .footerLink_container {
+    gap: 5rem;
+    flex-wrap: wrap;
+  }
+  .footer_section {
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
+  .footer_left {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+}

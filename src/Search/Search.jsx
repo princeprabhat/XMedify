@@ -10,6 +10,8 @@ import HospitalCard from "../components/HospitalCard/HospitalCard";
 import BannerCard from "../assets/search-page-banner.png";
 import CheckIcon from "../assets/ok-tested-icon.png";
 import BlueTopBar from "../components/BlueBar/BlueTopBar";
+import BookingModal from "../components/BookingModal/BookingModal";
+import FAQs from "../components/Sections/FAQs/FAQs";
 
 const Search = () => {
   const [medicalData, setMedicalData] = useState([]);
@@ -57,48 +59,55 @@ const Search = () => {
   }, [selectedItem]);
 
   return (
-    <div className={style.container_search_page}>
-      <TopBar />
-      <NavBar />
-      {/* <div className={style.blue_top_bar} /> */}
-      <BlueTopBar />
-      <SearchBar
-        isCustomNavStyle={true}
-        selectedItem={selectedItem}
-        setSelectedItem={setSelectedItem}
-        handleSubmit={handleSubmit}
-      />
-      {medicalData.length > 0 && selectedItem.state && selectedItem.city && (
-        <div className={style.heading_card_container}>
-          {medicalData.length} medical centers available in {selectedItem.state}
+    <>
+      <div className={style.container_search_page}>
+        <TopBar />
+        <NavBar />
+        {/* <div className={style.blue_top_bar} /> */}
+        <BlueTopBar />
+        <SearchBar
+          isCustomNavStyle={true}
+          selectedItem={selectedItem}
+          setSelectedItem={setSelectedItem}
+          handleSubmit={handleSubmit}
+        />
+        {medicalData.length > 0 &&
+          (selectedItem.state || state) &&
+          (selectedItem.city || city) && (
+            <div className={style.heading_card_container}>
+              {medicalData.length} medical centers available in{" "}
+              {selectedItem.state || state}
+              <div>
+                <img src={CheckIcon} alt="tick-correct" />
+                <span>
+                  Book appointments with minimum wait-time & verified doctor
+                  details
+                </span>
+              </div>
+            </div>
+          )}
+        <div className={style.search_page_container}>
+          <div className={style.medical_cards_container}>
+            {medicalData.length > 0 ? (
+              medicalData.map((el, idx) => {
+                return (
+                  <HospitalCard
+                    key={el["Provider ID"] || idx}
+                    hospitalData={el}
+                  />
+                );
+              })
+            ) : (
+              <h2>No Data to display</h2>
+            )}
+          </div>
           <div>
-            <img src={CheckIcon} alt="tick-correct" />
-            <span>
-              Book appointments with minimum wait-time & verified doctor details
-            </span>
+            <img src={BannerCard} alt="banner" />
           </div>
         </div>
-      )}
-      <div className={style.search_page_container}>
-        <div className={style.medical_cards_container}>
-          {medicalData.length > 0 ? (
-            medicalData.map((el, idx) => {
-              return (
-                <HospitalCard
-                  key={el["Provider ID"] || idx}
-                  hospitalData={el}
-                />
-              );
-            })
-          ) : (
-            <h2>No Data to display</h2>
-          )}
-        </div>
-        <div>
-          <img src={BannerCard} alt="banner" />
-        </div>
       </div>
-    </div>
+      <FAQs />
+    </>
   );
 };
 

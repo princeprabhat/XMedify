@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Children } from "react";
 import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
@@ -20,17 +20,29 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { SnackbarProvider } from "notistack";
 import MyBookings from "./MyBookings/MyBookings";
 
+const Layout = ({ children }) => {
+  return (
+    <>
+      {children}
+      <DownloadApp />
+      <Footer />
+    </>
+  );
+};
+
 const App = () => {
   return (
     <>
       <SnackbarProvider>
         <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/search/:state/:city" element={<Search />} />
-            <Route path="/search" element={<Search />} />
-            <Route path="/my-bookings" element={<MyBookings />} />
-          </Routes>
+          <Layout>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/search/:state/:city" element={<Search />} />
+              <Route path="/search" element={<Search />} />
+              <Route path="/my-bookings" element={<MyBookings />} />
+            </Routes>
+          </Layout>
         </BrowserRouter>
       </SnackbarProvider>
     </>

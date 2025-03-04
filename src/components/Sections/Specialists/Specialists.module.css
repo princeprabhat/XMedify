@@ -56,3 +56,9 @@
   letter-spacing: 0%;
   color: rgba(42, 167, 255, 1);
 }
+
+@media only screen and (max-width: 1230px) {
+  .specialist_container {
+    padding: 2rem;
+  }
+}

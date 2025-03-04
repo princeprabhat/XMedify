@@ -1,0 +1,62 @@
+.day_card_container {
+  text-align: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  display: flex;
+  align-items: center;
+  /* margin-left: 1rem;
+  margin-right: 1rem; */
+  /* width: 40vw; */
+  /* background-color: red; */
+  position: relative;
+  border-top: 1px solid rgba(240, 240, 245, 1);
+  padding-top: 2rem;
+}
+
+.left_btn {
+  left: 0;
+  width: max-content;
+  padding: 1rem 1.25rem;
+  border: 1px solid rgba(224, 224, 228, 1);
+  position: absolute;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.right_btn {
+  border-radius: 50%;
+  width: max-content;
+  padding: 1rem 1.25rem;
+  border: 1px solid rgba(224, 224, 228, 1);
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+.day_card_box > p {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 22.4px;
+  letter-spacing: 0%;
+  color: rgba(65, 65, 70, 1);
+  margin-bottom: 5px;
+}
+.day_card_box > span {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 22.4px;
+  letter-spacing: 0%;
+  color: rgba(65, 65, 70, 1);
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.day_card_box > div {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 16.8px;
+  letter-spacing: 0%;
+  color: rgba(1, 164, 0, 1);
+}

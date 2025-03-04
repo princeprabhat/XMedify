@@ -65,7 +65,7 @@ const SearchBar = ({
               : {}
           }
         >
-          <div className={style.search_box}>
+          <div id="state" className={style.search_box}>
             {isCustomNavStyle ? (
               <BiMap color="rgba(171, 182, 199, 1)" size={20} />
             ) : (
@@ -95,6 +95,7 @@ const SearchBar = ({
             </select>
           </div>
           <div
+            id="city"
             className={style.search_box}
             style={isCustomNavStyle ? { width: "50%" } : {}}
           >

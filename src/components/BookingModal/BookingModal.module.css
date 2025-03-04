@@ -1,0 +1,17 @@
+.booking_modal_container {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 0rem 1rem 1rem 1rem;
+  margin-top: -2.5rem;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.booking_button_container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.booking_button_container:nth-child(1) {
+  background-color: green;
+}

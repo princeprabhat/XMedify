@@ -1,12 +1,19 @@
 .Hero_services_container {
   background-color: rgba(255, 255, 255, 1);
   box-shadow: 6px 6px 35px 0px rgba(16, 40, 81, 0.11);
-  padding: 3rem 2rem;
-  margin-left: 7rem;
-  margin-right: 7rem;
-  margin-bottom: 5rem;
-  margin-top: -15%;
+  padding: 3rem 5rem;
+  /* margin-left: 7rem;
+  margin-right: 7rem; */
+  /* margin-bottom: 5rem; */
+  /* margin-top: -15%; */
   border-radius: 15px;
+  position: absolute;
+  /* bottom: 2%; */
+  top: 35rem;
+  left: 50%;
+  transform: translate(-50%);
+  width: 75%;
+  margin: auto;
 }
 
 .card_container {
@@ -25,4 +32,16 @@
   color: rgba(16, 40, 81, 1);
   text-align: center;
   padding: 1rem 0rem;
+}
+
+@media only screen and (max-width: 1230px) {
+  .Hero_services_container {
+    position: unset;
+    transform: unset;
+    width: unset;
+    padding: 3rem;
+  }
+  .card_container {
+    flex-wrap: wrap;
+  }
 }

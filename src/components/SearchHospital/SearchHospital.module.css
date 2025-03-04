@@ -1,0 +1,41 @@
+.medical_searchbar_container {
+  background-color: rgba(255, 255, 255, 1);
+  /* background-color: red; */
+  padding: 1.65rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  box-shadow: 6px 6px 35px 0px rgba(16, 40, 81, 0.11);
+  margin-top: 2rem;
+  flex: 1;
+  gap: 2rem;
+}
+.medical_searchbar_container > input {
+  flex: 1;
+  color: rgba(171, 182, 199, 1);
+  border-radius: 8px;
+  outline: none;
+  background-color: rgba(250, 251, 254, 1);
+  border: 1px solid rgba(240, 240, 240, 1);
+  padding: 0.75rem;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 2%;
+}
+.medical_searchbar_container > Button {
+  /* flex: 0.5; */
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 2%;
+
+  color: rgba(255, 255, 255, 1);
+}

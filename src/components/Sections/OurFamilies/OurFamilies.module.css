@@ -79,3 +79,12 @@
   text-align: center;
   color: rgba(119, 130, 157, 1);
 }
+
+@media only screen and (max-width: 1230px) {
+  .our_families_container {
+    padding: 3rem;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+  }
+}

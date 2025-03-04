@@ -63,3 +63,12 @@
   letter-spacing: 0%;
   color: rgba(27, 60, 116, 1);
 }
+
+@media only screen and (max-width: 1230px) {
+  .blogs_container {
+    padding: 1rem;
+  }
+  .card_container {
+    flex-wrap: wrap;
+  }
+}

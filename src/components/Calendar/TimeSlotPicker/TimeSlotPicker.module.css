@@ -1,0 +1,39 @@
+.slot_picker_container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 2rem;
+}
+.day_row_box {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 3rem;
+  /* align-self: auto; */
+}
+.day_row_box:not(:nth-child(3)) {
+  border-bottom: 1px solid rgba(240, 240, 245, 1);
+  padding-bottom: 1.5rem;
+}
+.day_row_box > p {
+  min-width: 5rem;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 19.6px;
+  letter-spacing: 0%;
+  color: rgba(65, 65, 70, 1);
+}
+.day_row_box > div {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.day_row_box > div > span {
+  border: 1px solid rgba(42, 167, 255, 1);
+  color: rgba(42, 167, 255, 1);
+  border-radius: 3px;
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+}

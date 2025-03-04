@@ -4,7 +4,7 @@ const bar_style = {
   textAlign: "center",
   fontFamily: "Poppins",
   fontWeight: "400",
-  fontSize: "14px",
+  fontSize: "0.75rem",
   lineHeight: "21px",
   letterSpacing: "0%",
   color: "rgba(255, 255, 255, 1)",

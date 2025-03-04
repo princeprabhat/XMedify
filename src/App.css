@@ -12,3 +12,5 @@
   border-radius: 10px;
   padding: 1rem;
 }
+
+/*Media query for all module.css files. Note::Navbar and footer media query is not available here those are present in their module files*/

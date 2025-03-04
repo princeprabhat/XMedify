@@ -46,3 +46,12 @@
   padding-left: 30px;
   padding-right: 30px;
 }
+
+@media only screen and (max-width: 1230px) {
+  .specialization_container {
+    padding: 3rem;
+  }
+  .card_container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
