@@ -10,7 +10,7 @@ import HospitalCard from "../components/HospitalCard/HospitalCard";
 import BannerCard from "../assets/search-page-banner.png";
 import CheckIcon from "../assets/ok-tested-icon.png";
 import BlueTopBar from "../components/BlueBar/BlueTopBar";
-import BookingModal from "../components/BookingModal/BookingModal";
+
 import FAQs from "../components/Sections/FAQs/FAQs";
 
 const Search = () => {
@@ -29,7 +29,7 @@ const Search = () => {
       AutohideSnackbar("Please select state and city to search", "error");
       return;
     }
-    setSelectedItem({ state: e.target.state.value, city: e.target.city.value });
+    setSelectedItem({ state: selectedItem.state, city: selectedItem.city });
     setFlag(true);
     // console.log();
   };
@@ -75,8 +75,11 @@ const Search = () => {
           (selectedItem.state || state) &&
           (selectedItem.city || city) && (
             <div className={style.heading_card_container}>
-              {medicalData.length} medical centers available in{" "}
-              {selectedItem.state || state}
+              <h1>
+                {medicalData.length} medical centers available in{" "}
+                {selectedItem?.city?.toLowerCase() || city.toLowerCase()}
+              </h1>
+
               <div>
                 <img src={CheckIcon} alt="tick-correct" />
                 <span>

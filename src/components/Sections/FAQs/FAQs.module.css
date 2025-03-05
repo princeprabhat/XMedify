@@ -86,4 +86,7 @@
   .right_badge {
     right: 5%;
   }
+  .left_section > img {
+    width: 100%;
+  }
 }
