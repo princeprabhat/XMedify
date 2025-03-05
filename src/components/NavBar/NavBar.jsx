@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import style from "./Navbar.module.css";
+import style from "./NavBar.module.css";
 import NavLogo from "../../assets/NavLogo.png";
 import Button from "../Button/Button";
 import { GiHamburgerMenu } from "react-icons/gi";

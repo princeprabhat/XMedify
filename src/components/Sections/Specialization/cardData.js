@@ -1,5 +1,5 @@
 import BloodSampleIcon from "../../../assets/Card Icons/BloodSample.png";
-import DrugStoreIcon from "../../../assets/Card Icons/DrugStore.png";
+import DrugStoreIcon from "../../../assets/Card Icons/Drugstore.png";
 import HeartRateIcon from "../../../assets/Card Icons/HeartRate.png";
 import HeartRateMonitorIcon from "../../../assets/Card Icons/HeartRateMonitor.png";
 import ImmuneIcon from "../../../assets/Card Icons/Immune.png";
